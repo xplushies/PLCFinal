@@ -4,10 +4,10 @@ class Lex:
     lexList = []
 
     lexList.insert(0, "start")
-    lexList.insert(1, "when")  #if statment
-    lexList.insert(2, "con")  #while statement
+    lexList.insert(1, "ifstmt")  #if statment
+    lexList.insert(2, "while")  #while statement
     lexList.insert(3, "block")  #block statment
-    lexList.insert(4, "as_")  #assignemt statement
+    lexList.insert(4, "asig")  #assignemt statement
 
     lexList.insert(5, "expr")  #expression
     lexList.insert(6, "term")  #term
