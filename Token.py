@@ -3,9 +3,10 @@
 class Token():
 
     #constructor for token
-    def __init__(self, tokens:list(str)) -> None:
+    def __init__(self, tokens:list(str)):
         self.tokens = tokens 
-        self.current = 0 # int for token code
+        self.lexeme = lex
+        self.code = 0 # int for token code
         self.currentToken = tokens[self.current]
 
     def getNextToken(self):
